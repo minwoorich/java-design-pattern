@@ -9,10 +9,10 @@ public class Client {
 //        String cardType = "YellowCard";
         String cardType = "BlueCard";
 
-        Product card1 = factory.create(cardType, "박민우");
-        Product card2 = factory.create(cardType, "정민우");
-        Product card3 = factory.create(cardType, "김민우");
-        Product card4 = factory.create(cardType, "이민우");
+//        Product card1 = factory.create(cardType, "박민우");
+//        Product card2 = factory.create(cardType, "정민우");
+//        Product card3 = factory.create(cardType, "김민우");
+//        Product card4 = factory.create(cardType, "이민우");
 
         // simpleFactory에 없는 카드의 경우 해당 카드만 따로 추가해주면되는데
         // 문제는 이때 코드 수정이 불가피 해진다 -> OCP위반
