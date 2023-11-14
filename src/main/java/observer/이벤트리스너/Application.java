@@ -15,7 +15,7 @@ public class Application {
         // 온클릭 리스너 등록
         button.setOnClickListener(btn -> btn.count++);
 
-        System.out.println("클릭 전 : "+ button.count);
+        System.out.println("클릭 전 : "+ button.getCount());
         button.onClick(); // 클릭
         button.onClick(); // 클릭
         button.onClick(); // 클릭
