@@ -1,10 +1,9 @@
-package command;
+package command.이벤트리스너;
 
 public class Application {
     static Document document = new Document();
     public static void main(String[] args) {
         MyElement button = document.getElementById("button");
-        MyElement counter = document.getElementById("counter");
 
 
 //        button.addEventListener("click", new ClickCommand());
